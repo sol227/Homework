@@ -1,0 +1,182 @@
+@charset "utf-8";
+body{
+  background-image: url(./images/나무\ 질감\ 2.jpg);
+  background-repeat: repeat;
+  background-size: contain;
+  background-position: 100%;
+  background-attachment: fixed;
+}
+.container{
+  background-color: #000000;
+  margin: 20px auto;
+  border: 4px solid #ffffff;
+  width: 940px; height: 830px;
+  font-family: '나눔스퀘어', '맑은 고딕', 돋움, sans-serif;
+}
+li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+header{
+   height: 177px;/* 130+47 */
+}
+header .header{
+  width: 350px; height: 130px;
+  /* overflow: hidden; */
+  padding-left: 20px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+header .header h1{
+  width: 80px;
+  padding: 0;
+  margin: 0;
+}
+header .header h1 img{
+  width: 80px;
+  display: block;
+}
+header .header h2{
+  color: #fff;
+  font-size: 30px;
+  line-height: 10px;
+  text-transform: capitalize;
+  margin-top: 60px;
+  font-weight: 900;
+  font-style: italic;
+}
+header .header h2 p{
+  color: #fff;
+  font-family: 'Gabriola', 돋움, sans-serif;
+}
+header menu{
+  color: #3b3b3b;
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 700 ;
+  display: flex;
+  justify-content: flex-start;
+}
+header menu li{
+  background-color: rgb(255, 255, 255);
+  width: 10%; height: 47px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header menu li:hover{
+  background-color: #000;
+  color: #fff;
+}
+main{
+  width: 650px; height: 620px;
+  display: flex;
+  flex-flow: column wrap;
+  background-color: rgb(219, 219, 219);
+}
+main .box1{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+main .box1 ul{      
+  padding: 0;
+  margin-top: 15px;
+  width: 40%;
+  line-height: 1px;
+} 
+main .box1 ul h4{      
+  margin-bottom: 37px;
+} 
+main .box1 ul h5{      
+  margin-bottom: 25px;
+} 
+
+main .box1 ul li:first-child{
+  font-size: 23px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+main .box1 ul li:nth-child(2){
+  font-size: 23px;
+  font-weight: 700;
+  color: #c9281c;
+}
+main .box1 ul li:last-child{
+  font-size: 18px;
+  line-height: 23px;
+}
+
+main figure{
+  border: #c9281c 1.5px solid;
+  margin: 15px;
+  margin-top: 25px;
+}
+main figure img{
+  border: 5px solid #fff;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+main figure figcaption {
+  background-color: #fff;
+  color: rgb(129, 129, 129);
+  width: 290px;
+  padding: 5px 5px;
+  margin: 0;
+  text-transform: capitalize;
+  text-align: right;
+  font-style: italic;
+}
+main .box2{
+  margin: 0;
+  width: 290px; height: 620px;
+  border-left: #838383 2px solid;
+  background-color: rgb(255, 255, 255);
+
+}
+main .box2 h4{
+  padding-left: 15px;
+  font-size: 22px;
+  font-weight: 900;
+  color: #c9281c;  
+}
+main .box2 menu{
+  padding: 0;
+  margin: 0;
+}
+main .box2 menu li{
+  font-size: 18px;
+  font-weight: 600;
+  color: #838383;
+  padding: 15px;
+  padding-top: 20px;
+  margin: 0;
+  border-bottom: #838383 2px solid;
+}
+main .box2 menu li:hover{
+  background-color: #000000;
+  color: #fff;
+}
+main .box2 address{
+  font-style: normal;  
+  font-weight: 500;
+  padding: 15px;
+  padding-top: 5px;
+}
+footer address{
+  background-color: #000000;
+  color: #acacac;
+  height: 33px;
+  line-height: 33px;
+  padding-left: 20px;
+  font-style: normal;
+}
+
