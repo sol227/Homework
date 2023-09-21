@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+body{
+  font-family: 'GmarketSans',-apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.5;
+  text-transform: capitalize;
+  background: rgb(90, 90, 90) url(./images/나무\ 질감\ 2.jpg);
+}
+
+/**** container ****/
+.container{
+  border: 4px solid #eeb0b0;
+  width: 940px;
+  margin: 20px auto;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+/**** header ****/
+.container header h1{
+  box-sizing: border-box;
+  color: #fff;
+  height: 130px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 33px;
+  font-style: italic;
+  line-height: 0.9;
+  background: #7d1e6a url(./images/Leica_Camera.svg.png) no-repeat 25px 50% / 90px;
+  padding: 30px 0 0 130px;
+   /* display: flex;
+   flex-flow: column;
+    align-items: center;
+   justify-content: center; */
+}
+.container header h1 em{
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 36px;
+}
+.container header .global_menu {
+  background-color: #ffcd38;
+  color: #7d1e6a;
+  font-weight: 600;
+  display: flex;
+}
+.container header .global_menu li a{
+  display: block;
+  width: 90px; height: 46px;
+  line-height: 46px;
+  text-align: center;
+}
+.container header .global_menu li a:hover{
+  background-color: #e4010b;
+  color: #fff;
+}
+/**** footer ****/
+.container footer{
+  height: 35px;
+  background-color: #7d1e6a;
+  color: #fff;
+  font-size: 14px;
+  line-height: 35px;
+  padding-left: 20px;
+}
+/****main ****/
+.container main{
+  display: flex;
+}
+.container main article{
+  background-color: #f1eeef;
+  /*
+  width: 650px;
+  width: 69%;  650/932*100
+  */
+  width: 70;
+  padding: 30px 20px;
+}
+.container main article .box{
+ display: flex;
+ margin-bottom: 40px;
+}
+.container main article .box figure{
+  background-color: #fff;
+  border: 1px solid red;
+  text-align: right;
+  color: #9c999c;
+  font-style: italic;
+  font-size: 14px;
+  padding: 8px;
+  margin-right: 20px;
+}
+.container main article .box figure figcaption{
+  margin-top: 8px;
+}
+.container main article .box .txt_wrapper{
+  width: 280px;
+}
+.container main article .box .txt_wrapper h2{
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+.container main article .box .txt_wrapper h3{
+  font-weight: 500;
+  margin: 5px 0;
+  color: red;
+}
+.container main aside{
+  /* 
+  width: 282px; 
+  width: 31%;  container: 932px - article: 650px 
+  */ 
+  flex-grow: 3;
+}
+.container main aside h2{
+  color: red;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin: 30px 20px;
+}
+.container main aside .recipe a{
+  display: block;
+  font-size: 1.4rem;
+  border-bottom: 1px solid #e4010b;
+  padding: 20px 0 16px 20px;
+}
+.container main aside .recipe a:hover{
+  background-color: #e4010b;
+  color: #fff;
+}
+.container main aside address{
+  margin: 30px 20px;
+  font-weight: 500;
+}
