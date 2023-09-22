@@ -1,0 +1,122 @@
+@charset "utf-8";
+
+body{
+  margin: 0;
+  height: 200vh
+}
+body::-webkit-scrollbar{
+  width: 12px;
+}
+/* 스크롤바 배경 */
+body::-webkit-scrollbar-track{
+  background-color: rgb(209, 209, 209);
+}
+/* 스크롤바 핸들 */
+body::-webkit-scrollbar-thumb{
+  background-color: #707070;
+  border-radius: 5px;
+}
+header{
+  background-color: #8f2d56;
+  height: 110px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-evenly;
+  position: fixed;
+  top: 0;
+  left: 0; right: 0;
+}
+header .wrapper1{
+  justify-content: center;
+  display: block;
+  display: flex;
+  justify-content: center; 
+}
+header .wrapper1 h1{
+  display: block;
+  background-color: #ffbc42;
+  color: #8f2d56 ;
+  width: 120px; height: 60px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 28px;
+  line-height: 65px;
+  font-weight: bold;
+  position: relative;
+  top: 17px
+}
+header .wrapper1 h1 a{
+  color: #8f2d56 ;
+}
+header .wrapper1 h1 a:visited{
+  color: #8f2d56 ;
+}
+header .menu{
+  list-style: none;
+  padding: 0;
+}
+header a{
+  text-decoration: none;
+}
+header .menu a{
+  color: #fff;
+  font-size: 25px;
+}
+
+header .wrapper2 .menu1{
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+}
+header .wrapper2 .menu1 li a{
+  display: block;
+  width: 70px; height: 27px;
+  line-height: 27px;
+  text-align: center;
+  padding: 2px 5px;
+  background-color: #d81159; 
+  font-size: 16px;
+  margin: 0;
+}
+header .wrapper2 .menu1 li:nth-child(2){
+  line-height: 27px;
+  text-align: center;
+  padding: 2px 0;
+  margin: 0;
+  background-color: #d81159; 
+  color: #fff;
+  font-size: 16px;
+}
+
+header .wrapper2 .menu1 li a:hover{
+  background-color: #ff97bd; 
+  color: #d81159;
+}
+header .wrapper2 .menu1 li a:hover{
+  background-color: #ff97bd; 
+  color: #d81159;
+}
+header .wrapper2 .menu2{
+  display: flex;
+}
+header .wrapper2 .menu2 li a{
+  display: block;
+  text-transform: capitalize;
+  text-align: center;
+  line-height: 53px;
+  width: 133px; height: 53px;
+  background-color: #006ca6;  
+  font-size: 23px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header .wrapper2 .menu2 li a:hover{
+  background-color: #4fa6d4;  
+  color: #006ca6;
+}
+
+main h2{
+  margin-top: 120px;
+  margin-left: 10px;
+  font-size: 60px;
+  font-weight: 700;
+}
