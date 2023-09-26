@@ -1,3 +1,4 @@
+## 과제 모음
 ### 230828
 - HTML_listEx, ai_펜툴 연습
 ### 230829
@@ -18,3 +19,7 @@
 - CSS_flexEx
 ### 230919
 - CSS_webEx
+### 230922
+- CSS_flex-itemEx, 홈페이지Ex
+### 230919
+- CSS_flexnavEx
