@@ -14,30 +14,35 @@
 </head>
 <body>
   <header>
-    <h1><img src="#" alt="로고"></h1>
-    <nav>
-      <menu>
-        <li><a href="#">ABOUT</a></li>
-        <li><a href="#">SERVIES</a></li>
-        <li><a href="#">PORTFOLIO</a></li>
-        <li><a href="#">BOARD</a></li>
-        <li><a href="#">CONTACT</a></li>
-        <li><a href="#">ELEMENT</a></li>
-        <li><a href="#">SHOP</a></li>
+    <div class="wrapper1">
+      <h1><img src="./images/logo.png" alt="로고"></h1>
+      <menu class="nav">
+        <li>
+          <img src="./images/navicon.png" alt="navicon">
+          <!-- <ul>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">SERVIES</a></li>
+            <li><a href="#">PORTFOLIO</a></li>
+            <li><a href="#">BOARD</a></li>
+            <li><a href="#">CONTACT</a></li>
+            <li><a href="#">ELEMENT</a></li>
+            <li><a href="#">SHOP</a></li>
+            <li><a href="#">login</a></li>
+            <li><a href="#">join</a></li>
+          </ul> -->
+        </li>
       </menu>
-      <ul>
-        <li><a href="#">login</a></li>
-        <li><a href="#">join</a></li>
-      </ul>
-    </nav>
+    </div>
   </header>
   <main>
-    <section class="page1">
-      <h2>YOU WILL BE ABLE TO GO ANYWHERE.</h2>
-      <p>Powerful Layout with Responsive functionlity that can be adapted to any screen size. Resize browser to view</p>
-      <p><a href="#">MORE VIEW</a></p>
+    <section class="intro">
+      <div class="intro-title">
+        <h2>YOU WILL BE ABLE TO GO ANYWHERE.</h2>
+        <p class="intro-txt">Powerful Layout with Responsive functionlity that can be adapted to any screen size. Resize browser to view</p>
+        <p class="intro-btn"><a href="#">MORE VIEW</a></p>
+      </div>
     </section>
-    <section class="page2">
+    <section class="tab-section">
       <h4>Tab Section</h4>
       <h3>삶 전체에 있어 일이란 큰 비중을 차지한다.</h3>
       <ul>
@@ -45,65 +50,76 @@
         <li><a href="#">프로그램</a></li>
         <li><a href="#">퍼블리싱</a></li>
       </ul>
-      <p><img src="#" alt="img"></p>
+      <p><img src="./images/01.jpg" alt="img"></p>
     </section>
-    <section  class="page3">
-      <h4>Service</h4>
-      <h3>우리의 프로젝트 특징입니다</h3>
-      <ul>
-        <li>
-          <img src="#" alt="icon">
-          <h5>Branding</h5>
-          <p>세상을 바꿀수 있다고 생각하는 제대로 정신나간 사람들이 세상을 변화시킨다.</p>
-        </li>
-        <li>
-          <img src="#" alt="icon">
-          <h5>Development</h5>
-          <p>세상을 바꿀수 있다고 생각하는 제대로 정신나간 사람들이 세상을 변화시킨다.</p>
-        </li>
-        <li>
-          <img src="#" alt="icon">
-          <h5>HTML5 Video</h5>
-          <p>세상을 바꿀수 있다고 생각하는 제대로 정신나간 사람들이 세상을 변화시킨다.</p>
-        </li>
-        <li>
-          <img src="#" alt="icon">
-          <h5>Analysis</h5>
-          <p>세상을 바꿀수 있다고 생각하는 제대로 정신나간 사람들이 세상을 변화시킨다.</p>
-        </li>
-        <li>
-          <img src="#" alt="icon">
-          <h5>Marketing</h5>
-          <p>세상을 바꿀수 있다고 생각하는 제대로 정신나간 사람들이 세상을 변화시킨다.</p>
-        </li>
-        <li>
-          <img src="#" alt="icon">
-          <h5>Grid System</h5>
-          <p>세상을 바꿀수 있다고 생각하는 제대로 정신나간 사람들이 세상을 변화시킨다.</p>
-        </li>
-        <li>
-          <img src="#" alt="icon">
-          <h5>Pixel Perfect</h5>
-          <p>세상을 바꿀수 있다고 생각하는 제대로 정신나간 사람들이 세상을 변화시킨다.</p>
-        </li>
-      </ul>
+    <section  class="service">
+      <div class="service-box">
+        <div class="service-title">
+          <h4>Service</h4>
+          <h3>우리의 프로젝트<br> 특징입니다</h3>
+        </div>
+        <ul>
+          <li>
+          <div class="branding">
+            <img src="./images/Branding_icon.png" alt="icon">
+            <h5>Branding</h5>
+            <p>세상을 바꿀수 있다고 생각하는 제대로 정신나간 사람들이 세상을 변화시킨다.</p>
+          </div>
+          </li>
+          <li>
+            <img src="./images/Development_icon.png" alt="icon">
+            <h5>Development</h5>
+            <p>세상을 바꿀수 있다고 생각하는 제대로 정신나간 사람들이 세상을 변화시킨다.</p>
+          </li>
+          <li>
+            <img src="./images/HTML5 Video_icon.png" alt="icon">
+            <h5>HTML5 Video</h5>
+            <p>세상을 바꿀수 있다고 생각하는 제대로 정신나간 사람들이 세상을 변화시킨다.</p>
+          </li>
+          <li>
+            <img src="./images/Analysis_icon.png" alt="icon">
+            <h5>Analysis</h5>
+            <p>세상을 바꿀수 있다고 생각하는 제대로 정신나간 사람들이 세상을 변화시킨다.</p>
+          </li>
+          <li>
+            <img src="./images/Marketing_icon.png" alt="icon">
+            <h5>Marketing</h5>
+            <p>세상을 바꿀수 있다고 생각하는 제대로 정신나간 사람들이 세상을 변화시킨다.</p>
+          </li>
+          <li>
+            <img src="./images/Grid System_icon.png" alt="icon">
+            <h5>Grid System</h5>
+            <p>세상을 바꿀수 있다고 생각하는 제대로 정신나간 사람들이 세상을 변화시킨다.</p>
+          </li>
+          <li class="pixel">
+            <img src="./images/Pixel Perfect_icon.png" alt="icon">
+            <h5>Pixel Perfect</h5>
+            <p>세상을 바꿀수 있다고 생각하는 제대로 정신나간 사람들이 세상을 변화시킨다.</p>
+          </li>
+        </ul>
+      </div>
     </section>
-    <section class="page4">
+    <section class="multi-popup">
       <h4>Multi Popup</h4>
       <h3>우리는 놀라운 것을 만들고 싶습니다</h3>
       <ul>
         <li>
-          <img src="#" alt="img2">
+        <div class="img-icon">
+          <img src="./images/02.jpg" alt="img2">
+          <a href="#"><img src="./images/album_icon.png" alt="album-icon"></a>
+        </div>
+        <div class="img-txt">
           <h5>앨범 이미지</h5>
           <p>세상을 바꿀수 있다고 생각하는 제대로 정신나간 사람들이 세상을 변화시킨다.</p>
+        </div>
         </li>
       </ul>
       <!-- 슬라이더 페이지 버튼 -->
-      <ul>
-        <li><a href="#">슬라이더버튼</a></li>
-        <li><a href="#">슬라이더버튼</a></li>
-        <li><a href="#">슬라이더버튼</a></li>
-        <li><a href="#">슬라이더버튼</a></li>
+      <ul class="slider-btn">
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
       </ul>
     </section>
     <section class="page5">
@@ -181,25 +197,25 @@
       <h4>Contact Us</h4>
       <h3>궁금한 내용이 있으신가요?</h3>
       <p>궁금하신 내용을 남겨주시면 담당 부서에서 확인 후 답변 드리겠습니다.</p>
-      <div>
-        <p>
-          <label>회사명</label><br>
+      <form>
+        <div>
+          <label for="name">회사명</label><br>
+          <input type="text">
+        </div>
+        <div>
+          <label for="tel">연락처</label><br>
           <input type="text">
         </p>
-        <p>
-          <labell">연락처</label><br>
+        <div>
+          <label for="email">메일주소</label><br>
           <input type="text">
-        </p>
-        <p>
-          <label>메일주소</label><br>
+        </div>
+        <div>
+          <label for="qustion">문의내용</label><br>
           <input type="text">
-        </p>
-        <p>
-          <label>문의내용</label><br>
-          <input type="text">
-        </p>
+        </div>
         <button type="submit">개인정보 동의 후 전송</button>
-      </div>
+      </form>
     </section>
   </main>
   <footer>
