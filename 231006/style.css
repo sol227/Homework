@@ -1,0 +1,184 @@
+@charset "utf-8";
+
+body, h2, h3, h4, h5, p{margin: 0; padding: 0; font-family: 'Noto Sans KR', '나눔스퀘어', '맑은고딕', 돋움, sans-serif; font-size: 18px;}
+menu, ul{list-style: none; margin: 0; padding: 0;}
+a{text-decoration: none; color: inherit;}
+button{display: block; border: none; background-color: #00000000;}
+section{padding: 0 20px; margin: 0 27px;}
+
+/**** header ****/
+header{position: sticky; top: 0; z-index: 100;}
+.head-menu{
+  background-color: #fff;
+  border-bottom: 1px solid #fff;
+  box-shadow:
+  0px 2px 11px rgba(0, 0, 0, 0.1);
+  height: 100px;
+  padding: 0 40px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+.head-menu h1 img{
+  width: 200px;
+  
+}
+.head-menu .nav-menu{
+  min-width: 750px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.head-menu .nav-menu li{transition: .2s;}
+.head-menu .nav-menu li:hover{ color: #f5821f;}
+.head-menu .side{
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.head-menu .side .shipping{
+  background-color: #f5821f;
+  color: #fff;
+  border-radius: 30px;
+  font-size: 13px;
+  padding: 5px 15px;
+  display: flex;
+  justify-content: center;
+}
+.head-menu .side .shipping img{display: inline-block; width: 20px; position: relative; top: 2px; left: -3px;}
+
+.head-menu .side .button-wrap{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.head-menu .side .button-wrap .side-btn{padding-left: 15px;}
+.head-menu .side .button-wrap .side-btn button{font-size: 15px; font-weight: bold; font-family: '나눔스퀘어', '맑은고딕', 돋움, sans-serif;}
+
+/**** main ****/
+/**** main video ****/
+.main-page{padding: 0; margin: 0;}
+.video-wrap{
+  height: 90vh;
+  background: url(./images/visual_default.png) no-repeat 50% /cover; 
+  position: relative;
+}
+.video-wrap .video-mask .diag img{position: absolute;}
+.video-wrap .video-mask .diag1 img{top: -10px; left: -55px;}
+.video-wrap .video-mask .diag2 img{top: -37px; left: -28px;}
+.video-wrap .video-mask .diag3 img{top: 169; left: -38;}
+.video-wrap .video-mask .diag4 img{bottom: 0; left: 0;}
+.video-wrap .video-mask .diag5 img{bottom: 0; left: 0;}
+.video-wrap .video-mask .diag6 img{bottom: 0; right: 0;}
+.video-wrap .video-mask .diag7 img{bottom: 0; right: 0;}
+/* 메인 타이틀 */
+.main-content{color: #fff;}
+.main-txt{position: absolute; top: 43%; left: 5%; font-style: italic;}
+.main-txt h2{font-size: 60px; font-weight: 400; line-height: 1.3; text-shadow: 1px 1px 1px #000000ac; text-indent: 1.8rem;}
+.main-txt h2 strong{font-size: 67px;}
+.main-txt p{margin: 16px 0 0 30px; font-size: 1rem; line-height: 1.5;}
+/* main-side-icon */
+.main-reserve-wrap{position: absolute; top:43%; right: 2%;}
+.main-reserve-wrap a{display: block; width: 110px; height: 110px; border-radius: 50%; background-color: #0000005e;padding: 18px 10px 10px 10px; margin-bottom: 15px; text-align: center; box-sizing: border-box; transition: .1s ease-in-out;}
+.main-reserve-wrap a:first-child{padding-top: 22px;}
+.main-reserve-wrap a:hover{background: linear-gradient(145deg, #fdbd34c5, #f5831fd2);}
+.main-reserve-wrap a p{font-size: 13px; line-height: 1.1; padding: 7px;}
+
+/* title-style */
+.title{text-align: center;}
+.title .slash-icon{font-size: 2.3rem; font-family: 'play', sans-serif; font-weight: bold; color: #f5821f; margin-bottom: 20px;} 
+.title h3{font-size: 2.7rem; font-family: 'Play', 돋움, sans-serif; text-transform: capitalize; margin-bottom: 15px;}
+.title p{font-size: 17px; color: #666; line-height: 1.6; margin: 5px 0 70px;}
+
+/**** at-a-glance ****/
+.at-a-glance{padding: 110px 20px 60px;}
+/* content */
+.glance-title h3{text-transform: none;}
+.m-glance{display: flex; justify-content: space-around; align-items: center;}
+.m-glance li{width: 100%; text-align: center; padding: 12px 20px 50px; border-right: 1px solid #e8e8e8;}
+.m-glance li:last-child{border-right: none;}
+.m-glance li .number{margin-top: 35px; text-align: center;}
+.m-glance li .number::after{
+  content: "";
+  display: block;
+  width: 30px;
+  border-bottom: 1px solid #000;
+  margin: 20px auto;
+}
+.m-glance li .number strong{font-family: 'play',돋움,sans-serif; font-size: 3.8rem;}
+.m-glance li .number span{font-size: 14px; text-transform: uppercase;}
+.m-glance li .txt p{font-size: 20px; font-weight: 500; color: rgb(2, 41, 116);}
+.m-glance li .txt .txt-sub{font-size: 16px; font-weight: 400; color: #777;}
+/* business-area */
+/* content1 */
+.business-area{ padding-top: 50px;}
+.business-content{display: flex; position: relative;}
+.list-wrap{width: 63%; height: 620px; padding: 55px 35px; background-color: #efefef; text-align: center; box-sizing: border-box; position: absolute; top: -20px; left: -7%; z-index: 1;}
+.list-wrap .business-list{display: flex; justify-content: center; font-size: 16px; font-weight: 500; color: #6f6f6f; margin-bottom: 37px;}
+.list-wrap .business-list li{padding: 6px 12px; transition: .3s .2s;}
+.list-wrap .business-list li:hover{color: #f18d00;}
+.list-wrap .business-list li:first-child{color: #f18d00; transform: translateY(-8.5px);}
+.list-wrap .business-list li:first-child::before{content: ""; display: block; width: 90px; border-top: 3px solid #f18d00;padding-bottom: 5px;}
+.business-txt h4{font-size: 35px; font-weight: 500;margin-bottom: 37px; color: #333;}
+.business-txt p{width: 100%; margin: 0 auto; word-break: keep-all; font-size: 15px; font-weight: 400; line-height: 1.7; color: #6f6f6f;}
+.b-img-list{display: flex; justify-content: center;}
+.b-img-list li{padding: 15px; margin-top: 40px;}
+.more-btn a{position: absolute; top: 290px; left: 46%; z-index: 10; display: block; background-color: #f18d00; color: #fff; width: 150px; height: 45px; text-align: center; line-height: 45px; font-size: 16px; font-weight: 600; text-transform: capitalize;transition: .4s ease-in-out;}
+.more-btn:hover a{border-radius: 60px;background-color: #fd980a;}
+.business-img img{position: absolute; top: 25px; right: -12%; z-index: 5;}
+/* 스케줄표 */
+.schedule{ margin-top: 710px; position: relative;}
+.schedule-title p{margin: 5px 0 30px;}
+.schedule-list{display: flex; justify-content: center; font-family: 'play',돋움,sans-serif; font-size: 17.5px; font-weight: 700; text-transform: uppercase;}
+.schedule-list li{padding: 10px 18px; transition: .3s;}
+.schedule-list li:first-child{color: #f5821f;}
+.schedule-list li:hover{color: #f5821f;}
+.schedule-content{background-color: #ddd; width: 100%; height: 50vh; text-align: center; line-height: 50vh; margin: 20px 0;}
+.more-btn2 a{display: block; background-color: #f18d00; color: #fff; width: 150px; height: 45px; text-align: center; line-height: 45px; font-size: 16px; font-weight: 600; text-transform: capitalize;transition: .3s ease-in-out; margin: 50px auto 100px; overflow: hidden;}
+.more-btn2:hover a{border-radius: 60px;background-color: #fd980a;}
+/* contact-us */
+.contact-wrap{display: flex; justify-content: space-evenly;}
+/* 보도자료 */
+.contact-img{width: 600px;position: relative;}
+.contact-img a h4{width: 140px; height: 50px; background-color: #f18d00;color: #fff; line-height: 50px; text-align: center; position: absolute; top: 0;}
+.contact-img .contact-txt{text-align: center; position: absolute; top: 85px; left: 57px;}
+.contact-img .contact-txt h5{width: 480px; font-size: 40px; color: #fff; margin: 0 auto 25px;}
+.contact-img .contact-txt p{font-family: 'play', 돋움, sans-serif; font-size: 18px; font-weight: 700; color: #fff;}
+.contact-img .contact-txt .contact-btn {display: block; font-size: 15px; font-weight: 500; width: 130px; height: 42px; line-height: 40px; margin: 20px auto 0; border: 1px solid #fff; color: #fff;}
+.contact-img .contact-bg-img img{width: 100%; height: 410px; object-fit: cover; filter: brightness(45%);}
+/* 소식더보기 */
+.contact-us{padding-bottom: 110px;}
+.contact-content2{padding: 0 10px;}
+.notice{padding: 10px 0 0;}
+.notice .notice-title {display: flex; justify-content: space-between; margin-bottom: 20px;}
+.notice .notice-title h4{font-family: 'play', 돋움, sans-serif; font-size: 38px; font-weight: 700; text-transform: capitalize;}
+.notice > .notice-title > a{display: block; font-size: 15px; font-weight: 500; width: 130px; height: 40px; line-height: 40px; text-align: center; border: 1px solid #ddd; transition: .3s; margin-right: 10px;}
+.notice > .notice-title > a:hover{border-radius: 60px;}
+.notice-list{font-size: 16px; color: #777;}
+.notice-list li{display: flex; justify-content: space-between; padding: 17px 20px 17px 28px; border-bottom: 1px solid #ddd; position: relative;}
+.notice-list li a::before{content: ""; width: 7px; height: 1px; background-color: #777; display: block; position: absolute; top: 28px; left: 10px;}
+.notice-list li p {font-size: 16px; color: #777;}
+.notice-list li p img{width: 15px;}
+/* recruit-img */
+.recruit-img{position: relative;}
+.recruit-title{position: absolute; top: 10px; left: 20px;} 
+.recruit-title h4{color: #f18d00; font-family: 'play', 돋움, sans-serif; font-size: 35px;font-weight: 700; text-transform: capitalize;} 
+.recruit-title p{font-size: 18px; font-weight: 500px; letter-spacing: -0.8px;} 
+.recruit-title .recruit-btn{display: block; font-size: 15px; font-weight: 500; width: 130px; height: 42px; line-height: 40px; text-align: center; background-color: #f18d00; color: #fff; position: absolute; top: 300px; left: 65px; transition: .3s;} 
+.recruit-title .recruit-btn:hover{background-color: #fd980a; border-radius: 60px;} 
+
+/**** footer ****/
+footer{font-size: 15px; color: #979797;}
+.logo-inner{display: flex; justify-content: space-evenly; align-items: center; background-color: #ddd; height: 100px;}
+
+.bottom-bar{ background-color: #333; padding: 50px 20px 70px;}
+.ft-header{display: flex; justify-content: space-between; margin-bottom: 25px;}
+.ft-header .ft-term .ft-list{display: flex; justify-content: center;}
+.ft-header .ft-term .ft-list li{ padding: 0 15px;}
+.ft-content{position: relative;}
+address{font-style: normal;}
+.address .add1{width: 680px; display: flex; justify-content: space-between; margin-bottom: 5px;}
+.address .tel{width: 450px; display: flex; justify-content: space-between;}
+.copy{font-family: 'play',돋움, sans-serif; font-size: 13px; font-weight: 400; margin-top: 35px; color: #666;}

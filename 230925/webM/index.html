@@ -8,8 +8,6 @@
   <meta property="og:image" content="https://sol227.github.io/Homework/230925/images/logo.png">
   <meta property="og:description" content="homepage">
   <meta property="og:type" content="website">
-  <!-- <link rel="stylesheet" href="../common/reset.css">
-  <link rel="stylesheet" href="../common/SpoqaHanSans.css"> -->
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -94,7 +92,7 @@
             <p>세상을 바꿀수 있다고 생각하는 제대로 정신나간 사람들이 세상을 변화시킨다.</p>
           </li>
           <li class="pixel">
-            <img src="../images/ic_fluent_grid_dots_24_regular (2).png" alt="icon">
+            <img src="../images/ic_fluent_grid_dots_24_regular.png" alt="icon">
             <h5>Pixel Perfect</h5>
             <p>세상을 바꿀수 있다고 생각하는 제대로 정신나간 사람들이 세상을 변화시킨다.</p>
           </li>
@@ -118,10 +116,10 @@
       </ul>
       <!-- 슬라이더 페이지 버튼 -->
       <ul class="slider-btn">
-        <li><button type="button" class="slider-dot"></li>
-        <li><button type="button" class="slider-dot"></li>
-        <li><button type="button" class="slider-dot"></li>
-        <li><button type="button" class="slider-dot"></li>
+        <li><button type="button" class="slider-dot"></button></li>
+        <li><button type="button" class="slider-dot"></button></li>
+        <li><button type="button" class="slider-dot"></button></li>
+        <li><button type="button" class="slider-dot"></button></li>
       </ul>
     </section>
     <section class="youtube-bg">
@@ -131,7 +129,7 @@
           <h3>Your new project?<br>Please get in touch.</h3>
           <p><a href="#">자세히 보기</a></p>
         </div>
-        <div class="video-bg"><video src="../assets/Free Stock Video_No Copyright Video.mp4" autoplay muted loop></video></div>  
+        <div class="video-bg"><video src="../assets/FreeStockVideo_NoCopyrightVideo.mp4" autoplay muted loop></video></div>  
       </div>
       <div class="img">
         <img src="../images/img-mockup.png" alt="img-mockup">
@@ -139,11 +137,11 @@
         <h3>행복한 세상을 위해 달려온 길</h3>
         <ul class="img-txt">
           <li>
-            <img src="../images/ic_fluent_checkmark_24_filled (1).png" alt="icon">
+            <img src="../images/ic_fluent_checkmark_24_filled.png" alt="icon">
             <p>많은 새겨지는 오면 계십니다. 새워 다 노새, 별 경, 봅니다. 불러 이웃 가을로 가슴속에 청춘이 까닭이요.</p>
           </li>
           <li>
-            <img src="../images/ic_fluent_checkmark_24_filled (1).png" alt="icon">
+            <img src="../images/ic_fluent_checkmark_24_filled.png" alt="icon">
             <p>많은 새겨지는 오면 계십니다. 새워 다 노새, 별 경, 봅니다. 불러 이웃 가을로 가슴속에 청춘이 까닭이요.</p>
           </li>
         </ul>
@@ -190,23 +188,8 @@
           <h4>Map Section</h4>
           <h3>찾아오시는 길</h3>
         </div>
-        <!-- 1. 지도 노드 -->
-        <div id="daumRoughmapContainer1696324774178" class="root_daum_roughmap root_daum_roughmap_landing"></div>
-        <!--
-          2. 설치 스크립트
-          * 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다.
-        -->
-        <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
-
-        <!-- 3. 실행 스크립트 -->
-        <script charset="UTF-8">
-          new daum.roughmap.Lander({
-            "timestamp" : "1696324774178",
-            "key" : "2gchp",
-            "mapHeight" : "380"
-          }).render();
-        </script>
-        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.510740762243!2d126.97562887632964!3d37.56658932412427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca2f2831952f3%3A0x7c432ea789930dc8!2z7ISc7Jq47Yq567OE7IucIOykkeq1rCDshLjsooXrjIDroZwgMTEw!5e0!3m2!1sko!2skr!4v1696398455838!5m2!1sko!2skr" width="800" height="380" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="google-map"></iframe>
+      </div>
       <ul class="map-wrapper">
         <li class="address">
           <h5>주소</h5>
@@ -232,20 +215,20 @@
       </div>
       <form>
         <div class="txt-box">
-          <label for="name">회사명</label><br>
-          <input type="text">
+          <label for="office-name">회사명</label><br>
+          <input type="text" id="office-name">
         </div>
         <div class="txt-box">
-          <label for="tel">연락처</label><br>
-          <input type="text">
+          <label for="user-tel">연락처</label><br>
+          <input type="text" id="user-tel">
         </div>
         <div class="txt-box">
-          <label for="email">메일주소</label><br>
-          <input type="text">
+          <label for="user-email">메일주소</label><br>
+          <input type="text" id="user-email">
         </div>
         <div class="txt-box">
-          <label for="qustion">문의내용</label><br>
-          <textarea name="qustion" id="userQustion" cols="30" rows="10"></textarea>
+          <label for="QnA">문의내용</label><br>
+          <textarea name="qustion" id="QnA" cols="30" rows="10"></textarea>
         </div>
         <button type="submit">개인정보 동의 후 전송</button>
       </form>
