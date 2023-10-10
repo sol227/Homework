@@ -1,5 +1,7 @@
 ### DYAME_webpage
 
+#### 231008
+- css_style - webpage_pc.ver 작업
 #### 231003
 - htmlmarkup - webpage_pc.ver 작업
 - css_style - webpage_mobile.ver 드롭메뉴 수정 작업
