@@ -127,7 +127,7 @@ header{position: sticky; top: 0; z-index: 100;}
 .b-img-list li{padding: 15px; margin-top: 40px;}
 .more-btn a{position: absolute; top: 290px; left: 46%; z-index: 10; display: block; background-color: #f18d00; color: #fff; width: 150px; height: 45px; text-align: center; line-height: 45px; font-size: 16px; font-weight: 600; text-transform: capitalize;transition: .4s ease-in-out;}
 .more-btn:hover a{border-radius: 60px;background-color: #fd980a;}
-.business-img img{position: absolute; top: 25px; right: -12%; z-index: 5;}
+.business-img img{position: absolute; top: 25px; right: -10%; z-index: 5; width: 60%;}
 /* 스케줄표 */
 .schedule{ margin-top: 710px; position: relative;}
 .schedule-title p{margin: 5px 0 30px;}

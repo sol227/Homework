@@ -1,6 +1,9 @@
 ## 과제 모음 ##
+### 2301006 ###
+- panstar_webpage 만들기
 ### 230925 ###
 - UI/UX_분석기획(webpage_dyami)
+- mobile, pc_ver
 ### 230922 ###
 - CSS_flexnavEx
 ### 230921 ###
